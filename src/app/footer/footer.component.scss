@@ -1,0 +1,31 @@
+footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    border-top: 2px solid white;
+}
+
+.spanFooter {
+
+    color: red;
+    text-shadow: 2px 2px 2px purple;
+
+}
+
+.anchorFooter {
+
+    color: red;
+    text-shadow: 2px 2px 2px purple;
+    color: white;
+    transition: 1s;
+}
+
+.anchorFooter:hover {
+
+    background: -webkit-linear-gradient(red,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
