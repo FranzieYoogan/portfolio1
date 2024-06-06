@@ -73,3 +73,43 @@
 
     transform: scale(1.3);
 }
+
+
+
+
+// flask
+
+
+
+.star3 {
+
+    width: 100px;
+    position: absolute;
+    bottom: 70%;
+    left: 47%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.star3:hover {
+
+    transform: scale(1.3);
+
+}
+
+.flaskLogo {
+    
+    width: 100px;
+    position: absolute;
+    bottom: 75%;
+    left: 47%;
+    cursor: pointer;
+    transition: 1s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.flaskLogo:hover {
+
+    transform: scale(1.3);
+}

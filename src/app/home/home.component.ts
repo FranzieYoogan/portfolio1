@@ -67,4 +67,31 @@ export class HomeComponent {
     starButton2.style.opacity = "1"
   }
 
+  star3() {
+
+    const star3:any = document.getElementById('star3')
+    const starButton3:any = document.getElementById('starButton3')
+
+
+      star3.style.visibility = "visible"
+      star3.style.opacity = "1"
+      starButton3.style.visibility = "hidden"
+      starButton3.style.opacity = "0"
+
+    
+
+  }
+  
+  
+  star33() {
+
+    const star3:any = document.getElementById('star3')
+    const starButton3:any = document.getElementById('starButton3')
+
+    star3.style.visibility = "hidden"
+    star3.style.opacity = "0"
+    starButton3.style.visibility = "visible"
+    starButton3.style.opacity = "1"
+  }
+
 }
