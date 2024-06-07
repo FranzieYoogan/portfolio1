@@ -2,6 +2,12 @@
 
     border-radius: 40px;
     border: 1px solid purple;
+    transition: 1s;
+}
+
+.imgStyle:hover {
+
+    transform: rotate(20deg);
 
 }
 
