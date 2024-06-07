@@ -187,3 +187,125 @@
 
     transform: scale(1.3);
 }
+
+
+@media only screen and (max-width: 400px) {
+    .star1 {
+      
+        left: 10%;
+
+    }
+
+    .angularLogo {
+
+        left: 10%;
+        bottom: 67%;
+    }
+
+
+    .star3 {
+      
+        left: 40%;
+
+    }
+
+    .flaskLogo {
+
+        left: 40%;
+
+        bottom: 75%;
+    }
+
+
+    .star5 {
+      
+        left: 5% !important;
+
+    }
+
+    .mongoLogo {
+
+        left: 5% !important;
+
+        bottom: 38%;
+    }
+    
+    
+  }
+
+
+  @media only screen and (max-width: 425px) {
+    .star1 {
+      
+        left: 10%;
+
+    }
+
+    .angularLogo {
+
+        left: 10%;
+        bottom: 67%;
+    }
+
+
+    .star3 {
+      
+        left: 40%;
+
+    }
+
+    .flaskLogo {
+
+        left: 40%;
+
+        bottom: 75%;
+    }
+
+
+    .star5 {
+      
+        left: 5% !important;
+
+    }
+
+    .mongoLogo {
+
+        left: 5% !important;
+
+        bottom: 38%;
+    }
+    
+    
+  }
+
+
+
+  @media only screen and (width: 320px) {
+    .star1 {
+      
+        left: 5% !important; 
+
+    }
+
+    .angularLogo {
+
+        left: 5% !important; 
+        bottom: 67%;
+    }
+
+
+    .star3 {
+      
+        left: 36%;
+
+    }
+
+    .flaskLogo {
+
+        left: 36% !important;
+
+        bottom: 75%;
+    }
+    
+  }
+
