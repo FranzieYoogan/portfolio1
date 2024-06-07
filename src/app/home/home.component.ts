@@ -94,4 +94,33 @@ export class HomeComponent {
     starButton3.style.opacity = "1"
   }
 
+
+  star4() {
+
+    const star4:any = document.getElementById('star4')
+    const starButton4:any = document.getElementById('starButton4')
+
+
+      star4.style.visibility = "visible"
+      star4.style.opacity = "1"
+      starButton4.style.visibility = "hidden"
+      starButton4.style.opacity = "0"
+
+    
+
+  }
+  
+  
+  star44() {
+
+    const star4:any = document.getElementById('star4')
+    const starButton4:any = document.getElementById('starButton4')
+
+    star4.style.visibility = "hidden"
+    star4.style.opacity = "0"
+    starButton4.style.visibility = "visible"
+    starButton4.style.opacity = "1"
+  }
+
+
 }

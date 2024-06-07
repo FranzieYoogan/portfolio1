@@ -113,3 +113,40 @@
 
     transform: scale(1.3);
 }
+
+
+// MYSQL
+
+
+.star4 {
+
+    width: 100px;
+    position: absolute;
+    bottom: 30%;
+    left: 70%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.star4:hover {
+
+    transform: scale(1.3);
+
+}
+
+.mysqlLogo {
+    
+    width: 100px;
+    position: absolute;
+    bottom: 34%;
+    left: 70%;
+    cursor: pointer;
+    transition: 1s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.mysqlLogo:hover {
+
+    transform: scale(1.3);
+}
