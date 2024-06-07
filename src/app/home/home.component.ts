@@ -123,4 +123,32 @@ export class HomeComponent {
   }
 
 
+  star5() {
+
+    const star5:any = document.getElementById('star5')
+    const starButton5:any = document.getElementById('starButton5')
+
+
+      star5.style.visibility = "visible"
+      star5.style.opacity = "1"
+      starButton5.style.visibility = "hidden"
+      starButton5.style.opacity = "0"
+
+    
+
+  }
+  
+  
+  star55() {
+
+    const star5:any = document.getElementById('star5')
+    const starButton5:any = document.getElementById('starButton5')
+
+    star5.style.visibility = "hidden"
+    star5.style.opacity = "0"
+    starButton5.style.visibility = "visible"
+    starButton5.style.opacity = "1"
+  }
+
+
 }

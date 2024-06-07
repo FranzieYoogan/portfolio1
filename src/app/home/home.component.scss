@@ -150,3 +150,40 @@
 
     transform: scale(1.3);
 }
+
+
+// MONGODB
+
+
+.star5 {
+
+    width: 100px;
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.star5:hover {
+
+    transform: scale(1.3);
+
+}
+
+.mongoLogo {
+    
+    width: 100px;
+    position: absolute;
+    bottom: 37%;
+    left: 15%;
+    cursor: pointer;
+    transition: 1s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.mongoLogo:hover {
+
+    transform: scale(1.3);
+}
